@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		432E28A41A7864ED00107CEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432E28A31A7864ED00107CEB /* AppDelegate.swift */; };
 		432E28A61A7864ED00107CEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432E28A51A7864ED00107CEB /* ViewController.swift */; };
-		432E28A91A7864ED00107CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432E28A71A7864ED00107CEB /* Main.storyboard */; };
 		432E28AB1A7864ED00107CEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 432E28AA1A7864ED00107CEB /* Images.xcassets */; };
 		432E28AE1A7864ED00107CEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 432E28AC1A7864ED00107CEB /* LaunchScreen.xib */; };
 		432E28BA1A7864ED00107CEB /* RGB_SlidersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432E28B91A7864ED00107CEB /* RGB_SlidersTests.swift */; };
+		432E28C51A79CF9D00107CEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432E28C31A79CF9D00107CEB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +30,12 @@
 		432E28A21A7864ED00107CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		432E28A31A7864ED00107CEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		432E28A51A7864ED00107CEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		432E28A81A7864ED00107CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		432E28AA1A7864ED00107CEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		432E28AD1A7864ED00107CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		432E28B31A7864ED00107CEB /* RGB SlidersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RGB SlidersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		432E28B81A7864ED00107CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		432E28B91A7864ED00107CEB /* RGB_SlidersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB_SlidersTests.swift; sourceTree = "<group>"; };
+		432E28C41A79CF9D00107CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			children = (
 				432E28A31A7864ED00107CEB /* AppDelegate.swift */,
 				432E28A51A7864ED00107CEB /* ViewController.swift */,
-				432E28A71A7864ED00107CEB /* Main.storyboard */,
+				432E28C31A79CF9D00107CEB /* Main.storyboard */,
 				432E28AA1A7864ED00107CEB /* Images.xcassets */,
 				432E28AC1A7864ED00107CEB /* LaunchScreen.xib */,
 				432E28A11A7864ED00107CEB /* Supporting Files */,
@@ -192,7 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432E28A91A7864ED00107CEB /* Main.storyboard in Resources */,
+				432E28C51A79CF9D00107CEB /* Main.storyboard in Resources */,
 				432E28AE1A7864ED00107CEB /* LaunchScreen.xib in Resources */,
 				432E28AB1A7864ED00107CEB /* Images.xcassets in Resources */,
 			);
@@ -236,20 +236,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		432E28A71A7864ED00107CEB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				432E28A81A7864ED00107CEB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		432E28AC1A7864ED00107CEB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				432E28AD1A7864ED00107CEB /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		432E28C31A79CF9D00107CEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				432E28C41A79CF9D00107CEB /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -405,6 +405,7 @@
 				432E28BF1A7864ED00107CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		432E28C01A7864ED00107CEB /* Build configuration list for PBXNativeTarget "RGB SlidersTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				432E28C21A7864ED00107CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
